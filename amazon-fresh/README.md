@@ -1,5 +1,5 @@
 # Amazon Fresh Task
-Amazon Fresh is a grocery delivery service that offers consumers the option of purchasing their groceries online and having them delivered on schedule. The Amazon Fresh team is planning a route for a delivery truck to deliver customer orders in the city of Techlandia. The planner will create a delivery area for each order to effectively plan the route.The area is abstracted as a grid. Not all locations are accessible by road. The truck only needs to make a single delivery in each area.
+Sometimes call the demolition man. Amazon Fresh is a grocery delivery service that offers consumers the option of purchasing their groceries online and having them delivered on schedule. The Amazon Fresh team is planning a route for a delivery truck to deliver customer orders in the city of Techlandia. The planner will create a delivery area for each order to effectively plan the route.The area is abstracted as a grid. Not all locations are accessible by road. The truck only needs to make a single delivery in each area.
 
 ## Requirement
 Write an algorithm to determine the minimum distance required for the truck to deliver the order.
@@ -30,3 +30,6 @@ area = [[1, 0, 0], [1, 0, 0], [1, 9, 1]]
 **Explanation:**
 Starting from the top-left corner, the truck traverses the cells `(0, 0) -> (1, 0) -> (2, 0) -> (2, 1).`
 The truck traverses a total distance of `3` to deliver the order.
+
+
+> NB: The algorithm works for demolition man challenge
